@@ -31,7 +31,7 @@
     "build": "tsc && vite build",
     "postbuild": "dts-bundle-generator --config ./dts-bundle-generator.config.ts",
     "test": "vitest",
-    "test:coverage": "vitest --coverage",
+    "test:c": "vitest --coverage",
     "format": "prettier . --write",
     "upgrade": "upgradeps",
     "release": "bun run build && np"
@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/michaelnji/redex/issues"
   },
-  "description": "Package description.",
+  "description": "Unique time based id generation.",
   "files": [
     "dist",
     "README.md",
@@ -49,7 +49,10 @@
     "package.json"
   ],
   "homepage": "https://github.com/michaelnji/redex#readme",
-  "keywords": ["some", "keywords"],
+  "keywords": [
+    "refid",
+    "unique"
+  ],
   "license": "MIT",
   "private": false,
   "type": "module",
@@ -77,5 +80,12 @@
     "upgradeps": "^2.0.6",
     "vite": "^5.0.12",
     "vitest": "^1.2.1"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "js-sha256": "^0.11.0",
+    "mathjs": "^13.1.1",
+    "nanoid": "^5.0.7",
+    "node-forge": "^1.3.1"
   }
 }

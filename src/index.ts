@@ -1,1 +1,2 @@
-export { sum } from "./sum";
+export { genTimeBasedId } from './gen';
+
