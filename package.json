@@ -1,5 +1,5 @@
 {
-  "name": "redex",
+  "name": "vixid",
   "version": "0.1.0",
   "author": {
     "name": "COD3V1L",
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michelnji/redex.git"
+    "url": "git+https://github.com/michelnji/vixid.git"
   },
-  "main": "./dist/redex.cjs",
-  "module": "./dist/redex.esm.js",
-  "jsdelivr": "./dist/redex.iife.js",
+  "main": "./dist/vixid.cjs",
+  "module": "./dist/vixid.esm.js",
+  "jsdelivr": "./dist/vixid.iife.js",
   "exports": {
     ".": {
-      "require": "./dist/redex.cjs",
-      "import": "./dist/redex.esm.js",
-      "types": "./dist/redex.d.ts"
+      "require": "./dist/vixid.cjs",
+      "import": "./dist/vixid.esm.js",
+      "types": "./dist/vixid.d.ts"
     },
     "./dist/": {
       "import": "./dist/",
@@ -37,7 +37,7 @@
     "release": "bun run build && np"
   },
   "bugs": {
-    "url": "https://github.com/michaelnji/redex/issues"
+    "url": "https://github.com/michaelnji/vixid/issues"
   },
   "description": "Unique time based id generation.",
   "files": [
@@ -48,7 +48,7 @@
     "src",
     "package.json"
   ],
-  "homepage": "https://github.com/michaelnji/redex#readme",
+  "homepage": "https://github.com/michaelnji/vixid#readme",
   "keywords": [
     "refid",
     "unique"
@@ -56,15 +56,15 @@
   "license": "MIT",
   "private": false,
   "type": "module",
-  "types": "./dist/redex.d.ts",
+  "types": "./dist/vixid.d.ts",
   "typesVersions": {
     "*": {
       "*": [
-        "./dist/redex.d.ts"
+        "./dist/vixid.d.ts"
       ]
     }
   },
-  "typings": "./dist/redex.d.ts",
+  "typings": "./dist/vixid.d.ts",
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.11.5",

@@ -2,7 +2,7 @@ const config = {
     entries: [
         {
             filePath: "./src/index.ts",
-            outFile: "./dist/redex.d.ts",
+            outFile: "./dist/vixid.d.ts",
             noCheck: false,
         },
     ],
