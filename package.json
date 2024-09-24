@@ -1,23 +1,23 @@
 {
-  "name": "package-name",
+  "name": "redex",
   "version": "0.1.0",
   "author": {
-    "name": "Author Name",
-    "email": "author@email.com",
-    "url": "https://website.com"
+    "name": "COD3V1L",
+    "email": "codebase65@outlook.com",
+    "url": "https://michaelnji.dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/repository.git"
+    "url": "git+https://github.com/michelnji/redex.git"
   },
-  "main": "./dist/package-name.cjs",
-  "module": "./dist/package-name.esm.js",
-  "jsdelivr": "./dist/package-name.iife.js",
+  "main": "./dist/redex.cjs",
+  "module": "./dist/redex.esm.js",
+  "jsdelivr": "./dist/redex.iife.js",
   "exports": {
     ".": {
-      "require": "./dist/package-name.cjs",
-      "import": "./dist/package-name.esm.js",
-      "types": "./dist/package-name.d.ts"
+      "require": "./dist/redex.cjs",
+      "import": "./dist/redex.esm.js",
+      "types": "./dist/redex.d.ts"
     },
     "./dist/": {
       "import": "./dist/",
@@ -34,10 +34,10 @@
     "test:coverage": "vitest --coverage",
     "format": "prettier . --write",
     "upgrade": "upgradeps",
-    "release": "npm run build && np"
+    "release": "bun run build && np"
   },
   "bugs": {
-    "url": "https://github.com/username/repository/issues"
+    "url": "https://github.com/michaelnji/redex/issues"
   },
   "description": "Package description.",
   "files": [
@@ -48,29 +48,20 @@
     "src",
     "package.json"
   ],
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://support.example.com"
-    }
-  ],
-  "homepage": "https://github.com/username/repository#readme",
+  "homepage": "https://github.com/michaelnji/redex#readme",
   "keywords": ["some", "keywords"],
   "license": "MIT",
   "private": false,
-  "sponsor": {
-    "url": "https://sponsor.example.com"
-  },
   "type": "module",
-  "types": "./dist/package-name.d.ts",
+  "types": "./dist/redex.d.ts",
   "typesVersions": {
     "*": {
       "*": [
-        "./dist/package-name.d.ts"
+        "./dist/redex.d.ts"
       ]
     }
   },
-  "typings": "./dist/package-name.d.ts",
+  "typings": "./dist/redex.d.ts",
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.11.5",

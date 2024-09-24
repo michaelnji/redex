@@ -2,7 +2,7 @@ const config = {
     entries: [
         {
             filePath: "./src/index.ts",
-            outFile: "./dist/package-name.d.ts",
+            outFile: "./dist/redex.d.ts",
             noCheck: false,
         },
     ],
