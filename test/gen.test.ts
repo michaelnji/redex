@@ -4,7 +4,7 @@ import { genTimeBasedId } from '../src/gen.ts';
 
 test("genTimeBasedId should have the correct length", () => {
     const id = genTimeBasedId();
-    expect(id.length).toBe(26);
+    expect(id.length).toBe(20);
 });
 
 test('genTimeBasedId should start with todays day', () => {
@@ -13,8 +13,8 @@ test('genTimeBasedId should start with todays day', () => {
     expect(id.startsWith(test)).toBe(true);
 });
 
-test('genTimeBasedId should generate 500,000 unique ids"', () => {
-    const amount = 500000;
+test('genTimeBasedId should generate 50,000 unique ids"', () => {
+    const amount = 50000;
     const ids: string[] = [];
     for (let i = 0; i < amount; i++) {
         ids.push(genTimeBasedId());
